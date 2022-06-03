@@ -1,0 +1,83 @@
+
+
+/******************** COMENTARIO ********************
+
+    Selector {
+        propiedad: valor;
+        propiedad: valor;
+    }
+
+*****************************************************/
+
+#texto-largo{
+    color: aqua;
+}
+
+
+#texto-largo.texto{
+    color: violet;
+}
+
+
+h1 {
+    color: red;
+    color: violet;
+    color: blue;
+    color: brown;
+    color: orangered;
+}
+
+
+
+/* .texto{
+    background-color: violet;
+}
+
+#texto-largo{
+    color: blue;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

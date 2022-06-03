@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+@font-face {
+    font-family: miTipografia;
+    src: url(../fonts/South\ Holland.ttf);
+}
+
+
+header{
+    text-align: center;
+    background-color: #E6E6E6;
+}
+
+h1{
+    text-align: center;
+    background-color: #C4C4C4;
+    font-family: miTipografia, sans-serif;
+}
+
+section ul li{
+    list-style-type: none;
+}
+
+section ul li span{
+    font-weight: bold;
+}
