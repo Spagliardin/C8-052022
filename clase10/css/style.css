@@ -1,0 +1,79 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;  
+}
+
+body{
+    height: 5000px;
+}
+
+header{
+    padding: 25px 0;
+    background-color: yellow;
+    position: sticky;
+    top: 20px;
+    z-index: 10;
+}
+
+header img{
+    width: 25px;
+}
+
+header nav{
+    position: relative;
+    /* left: 500px; */
+}
+
+header nav ul li{
+    display: inline-block;
+}
+
+
+div{
+    background-color: pink;
+    width: 250px;
+    margin: 20px 25px 20px 40px;
+    padding: 20px;
+    border: 10px red solid;
+    display: inline-block;
+    position: relative;
+    /* height: 250px;
+    overflow: hidden; */
+}
+
+div h2{
+    background-image: url(https://images.unsplash.com/photo-1649859394614-dc4f7290b7f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw2fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+    height: 200px;
+}
+
+div p{
+    margin-top: 75px;
+}
+
+span{
+    background-color: blue;
+    color: white;
+    width: 250px;
+    height: 250px;
+}
+
+.whatsapp{
+    width: 75px;
+    position: absolute;
+    left: 50px;
+    top: 170px
+}
+
+.textoUltimo{
+    margin-top: 50px;
+}
+
+/* p{
+    background-color: green;
+
+} */
+
+/* h2{
+    background-color: blue;
+} */
