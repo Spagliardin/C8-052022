@@ -10,6 +10,16 @@ body{
     background: rgb(235, 225, 225);
 }
 
+section{
+    height: 800px;
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
 
 main{
     padding: 35px;
@@ -20,8 +30,8 @@ main h2{
 }
 
 .box{
-    width: 200px;
-    height: 200px;
+    width: 700px;
+    height: 100px;
     padding: 20px;
     font-weight: bold;
     color: white;
@@ -31,7 +41,6 @@ main h2{
 
 .colorOne {
     background: #120078;
-    
 }
 
 .colorTwo{
