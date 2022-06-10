@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+
+header p{
+  padding: 10px;
+  background-color: #1CD1B0;
+}
+
+header h1{
+  padding: 28px;
+  background-color: #00669F;
+}
+
+section{
+  display: flex;
+  justify-content: space-around;
+}
+
+article{
+  position: relative;
+  margin: 150px 0;
+  width: 300px;
+  text-align: center;
+  background-color: #F3F3F3;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+article div{
+  padding: 20px;
+  height: 194px;
+  background-image: url(../img/bg-Batman.png);
+  background-size: cover;
+  text-align: left;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+article div.hearley{
+  background-image: url(../img/bg-hearley.png);
+}
+
+article div i{
+  font-size: 25px;
+  color: red;
+}
+
+article img{
+  position: absolute;
+  top: 125px;
+  left: 90px;
+  border-radius: 50%;
+  width: 125px;
+}
+
+article h4{
+  margin-top: 75px;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+article p{
+  padding: 15px;
+  text-align: left;
+}
+
+article button{
+  margin: 35px 0;
+  border: none;
+  padding: 15px 35px;
+  color: white;
+  background-color: #00669F;
+}
+
