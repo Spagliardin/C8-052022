@@ -16,7 +16,10 @@ header p{
   background-color: #1CD1B0;
 }
 
-header h1{
+main h1{
+  z-index: 1;
+  position: sticky;
+  top: 0;
   padding: 28px;
   background-color: #00669F;
 }
@@ -24,6 +27,7 @@ header h1{
 section{
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 article{
@@ -34,13 +38,15 @@ article{
   background-color: #F3F3F3;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
+  box-shadow: -6px 5px 8px 0px rgba(0,0,0,0.75);
 }
 
 article div{
   padding: 20px;
   height: 194px;
   background-image: url(../img/bg-Batman.png);
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   text-align: left;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
