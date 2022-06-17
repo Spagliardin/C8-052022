@@ -111,7 +111,8 @@ footer {
 
 footer img {
   position: absolute;
-  right: 25px;
+  /* right: 25px; */
+  left: 85%;
   width: 100px;
 }
 

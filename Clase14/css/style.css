@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html{
+    font-size: 10px;
+}
+
+
+body{
+    height: 5000px;
+    background-color: pink;
+    font-family: 'Inter', sans-serif;
+}
+
+section{
+    height: 100vh;
+    /* width: 50%; */
+    background-color: green;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    /* font-size: 10px; */
+}
+
+section article{
+    border: 2px solid black;
+    width: 200px;
+    height: 40%;
+    /* font-size: 0.5em; */
+}
+
+p{
+    font-size: 1rem;
+}
+
+h1{
+    font-size: 1.5rem;
+}
+
+
+/*  Si la pantalla es <= 760px, aplica las reglas de css  */
+
+
+
+@media (max-width:760px) {
+
+    section article{
+        width: 40%;
+        background-color: yellow;
+    }
+
+
+}
+
+
+
+@media (max-width: 350px) {
+
+    html{
+        font-size: 20px;
+    }
+
+    section article{
+        margin-bottom: 50px;
+        width: 80%;
+        background-color: purple;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
