@@ -1,0 +1,87 @@
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a:visited{
+    color: violet;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    height: 40vh;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    margin-left: 25px;
+}
+
+nav ul li{
+    margin-left: 10px;
+}
+
+nav ul li:nth-child(3n){
+    background-color: green;
+}
+
+section article:nth-of-type(2):hover{
+    background-color: pink;
+}
+
+button{
+    padding: 25px 45px;
+    background-color: rgb(72, 72, 137);
+    font-weight: 700;
+    color: white;
+    border: none;
+    margin: 40px;
+    transition: all 1s ease-in-out;
+}
+
+button:hover{
+    background-color: rgb(66, 66, 82);
+    border-radius: 16px;
+    /* width: 500px; */
+}
+
+ul li{
+    list-style-type: none;
+    position: relative;
+}
+
+ul li span{
+    text-decoration: underline;
+}
+
+ul li::before{
+    content: '';
+    width: 20px;
+    /* height:     ; */
+    background-color: brown;
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+}
+
+ul li::after{
+    content: '\f13d';
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+    margin-left: 25px;
+}
+
+
+/* 
+
+n
+
+
+
+*/
