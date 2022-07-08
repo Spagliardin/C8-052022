@@ -1,0 +1,81 @@
+
+@import 'variables.scss';
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+// body{
+//     background-color: green;
+// }
+
+// main{
+//     background-color: $bg-primary;
+//     width: 75%;
+//     section.hero{
+//         background-color: yellowgreen;
+//         width: $w;
+//         div.text-combo{
+//             background-color: pink;
+//             width: $w;
+//             @media (max-width: 760px) {
+//                 background-color: green;
+//             }
+//             h2{
+//                 font-size: 26px;
+//             }
+//             p{
+//                 font-size: 10px;
+//                 &:nth-child(2){
+//                     font-size: 25px;
+//                 }
+//                 // &.textoUno{
+//                 //     font-family: Verdana, Geneva, Tahoma, sans-serif;
+//                 // }
+//                 // &.textoDos{
+//                 //     font-family: Arial, Helvetica, sans-serif;
+//                 // }
+//             }
+//             button{
+//                 border: none;
+//                 color: cadetblue;
+//                 padding: 25px 40px;
+//             }
+//         }
+//     }
+// }
+
+
+
+// .btn{
+//     &.success{
+//         @include generateButtons(rgb(94, 94, 192), 200, white);
+//     }
+//     &.warning{
+//         @include generateButtons(yellow, 600, black);
+//     }
+//     &.danger{
+//         @include generateButtons(red, 900, white);
+//     }
+// }
+
+// @media (max-width: 760px) {
+
+//     button{
+//         background-color: green;
+//     }
+
+// }
+
+main{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    div{
+        border: 1px solid black;
+    }
+}
+
+

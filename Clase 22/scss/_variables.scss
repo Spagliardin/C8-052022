@@ -1,0 +1,55 @@
+@use 'sass:math';
+
+$bg-primary: blue;
+$w: 50%;
+$columns: 12;
+
+
+@mixin generateButtons($bgColor, $fw, $color) {
+    padding: 25px 40px;
+    background-color: $bgColor;
+    border: none;
+    font-weight: $fw;
+    font-size: 18px;
+    color: $color;
+    border-radius: 16px;
+    margin: 25px;
+    cursor: pointer;
+}
+
+@mixin generateColumns($prefix: undefined) {
+    @if ($prefix != undefined) {
+        @for $i from 1 to 13 {
+            .col-#{$prefix}-#{$i}{
+                width: math.percentage(math.div($i, $columns));
+            }
+        }
+    } @else {
+        @for $i from 1 to 13{
+            .col-#{$i}{
+                width: math.percentage(math.div($i, $columns));
+            }
+        }
+    }
+}
+
+@include generateColumns;
+
+
+
+$prefix: (
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px
+);
+
+@each $name, $value in $prefix {
+    @media (min-width: $value) {
+        @include generateColumns(md)
+    }
+}
+
+
+
+
